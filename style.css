@@ -864,7 +864,7 @@
  }
 
  /* =========================
-   CERTIFICATION & DIGITAL HEROES ADDITIONS
+   CERTIFICATION & PORTFOLIO ENHANCEMENTS
 ========================= */
 
  .cert-card {
@@ -874,11 +874,6 @@
  .cert-card:hover {
      transform: translateY(-5px);
      box-shadow: 0 8px 20px rgba(177, 114, 236, 0.2);
- }
-
- .digital-heroes-btn:hover {
-     transform: scale(1.03);
-     box-shadow: 0 4px 10px rgba(79, 70, 229, 0.2);
  }
 
  /* Light mode overrides */
@@ -894,14 +889,4 @@
 
  .light-mode .contact-details {
      color: #333 !important;
- }
-
- .light-mode .digital-heroes-btn {
-     background: #4f46e5 !important;
-     color: white !important;
-     border-color: #4f46e5 !important;
- }
-
- .light-mode .digital-heroes-btn:hover {
-     background: #4338ca !important;
  }
