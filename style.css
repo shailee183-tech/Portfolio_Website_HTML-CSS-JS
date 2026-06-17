@@ -862,3 +862,46 @@
      font-size: 13px;
      line-height: 1.7;
  }
+
+ /* =========================
+   CERTIFICATION & DIGITAL HEROES ADDITIONS
+========================= */
+
+ .cert-card {
+     transition: 0.3s ease;
+ }
+
+ .cert-card:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 8px 20px rgba(177, 114, 236, 0.2);
+ }
+
+ .digital-heroes-btn:hover {
+     transform: scale(1.03);
+     box-shadow: 0 4px 10px rgba(79, 70, 229, 0.2);
+ }
+
+ /* Light mode overrides */
+ .light-mode .cert-card {
+     background: #f7f7fa !important;
+     color: #333 !important;
+     border: 1px solid #e2e8f0 !important;
+ }
+
+ .light-mode .cert-card p {
+     color: #555 !important;
+ }
+
+ .light-mode .contact-details {
+     color: #333 !important;
+ }
+
+ .light-mode .digital-heroes-btn {
+     background: #4f46e5 !important;
+     color: white !important;
+     border-color: #4f46e5 !important;
+ }
+
+ .light-mode .digital-heroes-btn:hover {
+     background: #4338ca !important;
+ }
